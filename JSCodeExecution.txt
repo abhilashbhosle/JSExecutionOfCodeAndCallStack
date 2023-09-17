@@ -1,0 +1,24 @@
+========JAVASCRIPT CODE EXECUTION=============
+Javascript executes the code in three different phases.
+
+1) Global Execution context
+In Global execution context by default this keyword is allocated
+
+2) Memory Creation phase
+In memory phase memory is allocated to each variable.
+=====refering to pic1.png========
+initially val1=undefined, val2=undefined, addnum=definition,
+result1=undefined, result2=undefined
+Though the values are assigned to val1 val2 but in memory allocation phase the variables will be indefined
+
+3) Execution phase
+In execution phase all the operations are performed and results are returned.
+After the execution thread is deleted.
+=====refering to pic1.png========
+val1=10
+val2=5
+addnum=addnum has one variable declared inside it hence new environment and execution thread is created.
+=====inside addnum=======
+hence it goes to memory creation phase=>total=undefined,val1=undefined,val2=undefined
+then it comes to executionphase=>val1=10,val2=5,total=15
+execution thread is deleted and total is assigned to the global execution context

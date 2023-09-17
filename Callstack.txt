@@ -1,0 +1,11 @@
+=========CALL STACK===========
+Call stack represents the basic execution of functions inside JAVASCRIPT
+=====refering to pic2.png========
+=>break points are added to the one(),two(),three()
+=>hence call stack follows last in first out methode
+==explanation==
+=>let us consider when we call one(),two(),three()
+in this case execution happens in this way one()=>two()=>three()
+=>But what if in function one we are calling function two and inside function two we are calling function three
+=>hence when function one will stay in callstack till the function two gets removed from stack and function two stays
+till the function three stays in stack.
